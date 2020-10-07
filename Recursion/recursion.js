@@ -50,10 +50,27 @@ function triangular(n) {
 console.log(triangular(6));
 
 // 5. String Splitter
+function split(str) {}
 
 // 6. Fibonacci
+function fib(n) {
+  if (n <= 1) {
+    return 1;
+  } else {
+    return fib(n - 1) + fib(n - 2);
+  }
+}
+console.log(fib(10));
 
 // 7. Factorial
+function factorial(n) {
+  if (n === 0) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+}
+console.log(factorial(5));
 
 // 8. Find a way out of a maze
 
